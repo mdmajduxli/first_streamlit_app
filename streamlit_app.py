@@ -65,7 +65,7 @@ except URLError as e:
 #streamlit.text("Hello from Snowflake:")
 #streamlit.text(my_data_row)
 
-streamlit.header("View Our Fruit List - Add Your Favourites!")
+streamlit.header("View Our Fruit List - Add Your Favorites!")
 #Snowflake-related functions
 def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:
